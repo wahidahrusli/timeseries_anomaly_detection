@@ -34,7 +34,7 @@ timestamp
 ## Visualize the data
 
 ### Timeseries data without anomalies
-Data for training: `Regen Off Gas in CS & GPP5-DHU-CG05-02 Regen Off Gas in SS`
+Data for training: `Regen Off Gas in CS & Regen Off Gas in SS`
 
 ```python
 fig, ax = plt.subplots()
