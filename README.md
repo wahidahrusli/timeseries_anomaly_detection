@@ -162,7 +162,7 @@ Please note that we are using x_train as both the input and the target since thi
 history = model.fit(
     x_train,
     x_train,
-    epochs=50,
+    epochs=16,
     batch_size=128,
     validation_split=0.1,
     callbacks=[
