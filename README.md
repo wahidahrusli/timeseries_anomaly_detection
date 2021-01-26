@@ -42,7 +42,7 @@ gpp5_data_1.plot(legend=False, ax=ax)
 plt.show()
 ```
 
---gambar--
+![01_visualize_gpp5data1](https://github.com/wahidahrusli/timeseries_anomaly_detection/tree/main/figures/01_visualize_gpp5data1.png "01_visualize_gpp5data1.png")
 
 ### Timeseries data with anomalies
 Data for testing: `GPP5-DHU-CG09-01 LPG Treater`
@@ -53,7 +53,7 @@ gpp5_data_2.plot(legend=False, ax=ax)
 plt.show()
 ```
 
----gambar---
+![02_visualize_gpp5data2](https://github.com/wahidahrusli/timeseries_anomaly_detection/tree/main/figures/02_visualize_gpp5data1.png "02_visualize_gpp5data2.png")
 
 ------------
 
@@ -216,7 +216,7 @@ plt.legend()
 plt.show()
 ```
 
----gambar---
+![03_train_model](https://github.com/wahidahrusli/timeseries_anomaly_detection/tree/main/figures/03_train_model.png "03_train_model")
 
 -------
 
@@ -242,7 +242,7 @@ threshold = np.max(train_mae_loss)
 print("Reconstruction error threshold: ", threshold)
 ```
 
----gambar---
+![04_detect_anomalies](https://github.com/wahidahrusli/timeseries_anomaly_detection/tree/main/figures/04_detect_anomalies.png "04_detect_anomalies")
 
 *Terminal:*
 ```
@@ -259,7 +259,7 @@ plt.plot(x_train_pred[0])
 plt.show()
 ```
 
----gambar---
+![05_compare_reconstruction](https://github.com/wahidahrusli/timeseries_anomaly_detection/tree/main/figures/05_compare_reconstruction.png "05_compare_reconstruction")
 
 ### Prepare test data
 
@@ -295,14 +295,14 @@ print("Number of anomaly samples: ", np.sum(anomalies))
 print("Indices of anomaly samples: ", np.where(anomalies))
 ```
 
----gambar---
+![06_prepare_test_data](https://github.com/wahidahrusli/timeseries_anomaly_detection/tree/main/figures/06_prepare_test_data.png "06_prepare_test_data")
 
 *Terminal:*
 ```
 Test input shape:  (3613, 368, 1)
 ```
 
----gambar---
+![07_anomaly_samples](https://github.com/wahidahrusli/timeseries_anomaly_detection/tree/main/figures/07_anomaly_samples.png "07_anomaly_samples")
 
 *Terminal:*
 ```
@@ -326,5 +326,4 @@ gpp5_data_2.plot(legend=False, ax=ax)
 df_subset.plot(legend=False, ax=ax, color="r")
 plt.show()
 ```
-
----gambar---
+![08_plot_anomaly](https://github.com/wahidahrusli/timeseries_anomaly_detection/tree/main/figures/08_plot_anomaly.png  "08_plot_anomaly")
