@@ -34,7 +34,7 @@ timestamp
 ## Visualize the data
 
 ### Timeseries data without anomalies
-Data for testing: `GPP5-DHU-CG05-01 Regen Off Gas in CS & GPP5-DHU-CG05-02 Regen Off Gas in SS`
+Data for training: `Regen Off Gas in CS & GPP5-DHU-CG05-02 Regen Off Gas in SS`
 
 ```python
 fig, ax = plt.subplots()
@@ -45,7 +45,7 @@ plt.show()
 ![01_visualize_gpp5data1](https://github.com/wahidahrusli/timeseries_anomaly_detection/blob/main/figures/01_visualize_gpp5data1.png)
 
 ### Timeseries data with anomalies
-Data for testing: `GPP5-DHU-CG09-01 LPG Treater`
+Data for testing: `LPG Treater`
 
 ```python
 fig, ax = plt.subplots()
