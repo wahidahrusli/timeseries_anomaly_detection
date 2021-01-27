@@ -5,8 +5,8 @@ This script demonstrates how you can use a reconstruction convolutional autoenco
 ## Quick look at the data
 
 ```python
-print(gpp5_data_1.head())
-print(gpp5_data_2.head())
+print(ts_data_1.head())
+print(ts_data_2.head())
 ```
 
 
